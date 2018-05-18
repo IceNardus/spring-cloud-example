@@ -4,6 +4,8 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/netflix/pom.xml" />
+        <option value="$PROJECT_DIR$/netflix/eureka-producer-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/netflix/eureka-client-pro/pom.xml" />
       </list>
     </option>
   </component>
