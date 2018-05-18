@@ -1,5 +1,4 @@
 /target/
-!.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
 .apt_generated
@@ -11,6 +10,7 @@
 .sts4-cache
 
 ### IntelliJ IDEA ###
+.mvn
 .idea
 *.iws
 *.iml

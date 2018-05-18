@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/netflix/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/netflix/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/netflix/netflix.iml" filepath="$PROJECT_DIR$/netflix/netflix.iml" />
-      <module fileurl="file://$PROJECT_DIR$/netflix/netflix.iml" filepath="$PROJECT_DIR$/netflix/netflix.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-example.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-example.iml" />
     </modules>
   </component>
