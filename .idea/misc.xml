@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/netflix/pom.xml" />
         <option value="$PROJECT_DIR$/netflix/eureka-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/netflix/eureka-turbine/pom.xml" />
       </list>
     </option>
   </component>
