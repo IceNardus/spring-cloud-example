@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/netflix/pom.xml" />
+        <option value="$PROJECT_DIR$/netflix/eureka-hystrix-dashboard/pom.xml" />
       </list>
     </option>
   </component>
@@ -11,6 +12,19 @@
   <component name="SvnBranchConfigurationManager">
     <option name="myConfigurationMap">
       <map>
+        <entry key="$PROJECT_DIR$/netflix/eureka-hystrix-dashboard">
+          <value>
+            <SvnBranchConfiguration>
+              <option name="branchUrls">
+                <list>
+                  <option value="http://10.20.0.15/project/en/MOBI_GAME/H718_MorningRun/H718_Server_Code/branches" />
+                  <option value="http://10.20.0.15/project/en/MOBI_GAME/H718_MorningRun/H718_Server_Code/tags" />
+                </list>
+              </option>
+              <option name="trunkUrl" value="http://10.20.0.15/project/en/MOBI_GAME/H718_MorningRun/H718_Server_Code/trunk" />
+            </SvnBranchConfiguration>
+          </value>
+        </entry>
         <entry key="$PROJECT_DIR$/netflix/eureka-producer-feign">
           <value>
             <SvnBranchConfiguration>

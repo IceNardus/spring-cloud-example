@@ -3,7 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/netflix/eureka-client-pro" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/netflix/eureka-producer-feign" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/netflix/eureka-hystrix-dashboard" vcs="svn" />
   </component>
 </project>

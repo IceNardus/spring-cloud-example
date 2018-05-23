@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="eureka-client-pro" />
+        <module name="eureka-hystrix-dashboard" />
         <module name="eureka-producer-feign" />
         <module name="eureka-server" />
       </profile>
@@ -14,6 +15,7 @@
     <bytecodeTargetLevel>
       <module name="eureka-client-dev" target="1.8" />
       <module name="eureka-client-pro" target="1.8" />
+      <module name="eureka-hystrix-dashboard" target="1.8" />
       <module name="eureka-producer-feign" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="netflix" target="1.8" />
