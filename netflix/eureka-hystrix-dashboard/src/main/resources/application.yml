@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: eureka-hystrix-dashboard
+server:
+  port: 11000
