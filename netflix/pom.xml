@@ -26,5 +26,6 @@
         <module>eureka-server</module>
         <module>eureka-producer-feign</module>
         <module>eureka-client-pro</module>
+        <module>eureka-hystrix-dashboard</module>
     </modules>
 </project>
