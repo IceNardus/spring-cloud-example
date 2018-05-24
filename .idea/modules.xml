@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/netflix/eureka-producer-feign/eureka-producer-feign.iml" filepath="$PROJECT_DIR$/netflix/eureka-producer-feign/eureka-producer-feign.iml" />
       <module fileurl="file://$PROJECT_DIR$/netflix/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/netflix/eureka-server/eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/netflix/eureka-turbine/eureka-turbine.iml" filepath="$PROJECT_DIR$/netflix/eureka-turbine/eureka-turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/netflix/eureka-turbine-stream-rabbitmq/eureka-turbine-stream-rabbitmq.iml" filepath="$PROJECT_DIR$/netflix/eureka-turbine-stream-rabbitmq/eureka-turbine-stream-rabbitmq.iml" />
       <module fileurl="file://$PROJECT_DIR$/netflix/netflix.iml" filepath="$PROJECT_DIR$/netflix/netflix.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/spring-cloud-example.iml" filepath="$PROJECT_DIR$/.idea/spring-cloud-example.iml" />
     </modules>

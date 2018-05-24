@@ -11,6 +11,7 @@
         <module name="eureka-producer-feign" />
         <module name="eureka-server" />
         <module name="eureka-turbine" />
+        <module name="eureka-turbine-stream-rabbitmq" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +21,7 @@
       <module name="eureka-producer-feign" target="1.8" />
       <module name="eureka-server" target="1.8" />
       <module name="eureka-turbine" target="1.8" />
+      <module name="eureka-turbine-stream-rabbitmq" target="1.8" />
       <module name="netflix" target="1.8" />
     </bytecodeTargetLevel>
   </component>

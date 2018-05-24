@@ -28,5 +28,6 @@
         <module>eureka-client-pro</module>
         <module>eureka-hystrix-dashboard</module>
         <module>eureka-turbine</module>
+        <module>eureka-turbine-stream-rabbitmq</module>
     </modules>
 </project>

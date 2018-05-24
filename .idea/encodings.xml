@@ -7,5 +7,6 @@
     <file url="file://$PROJECT_DIR$/netflix/eureka-producer-feign" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netflix/eureka-server" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netflix/eureka-turbine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/netflix/eureka-turbine-stream-rabbitmq" charset="UTF-8" />
   </component>
 </project>
