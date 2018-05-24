@@ -7,6 +7,7 @@
         <option value="$PROJECT_DIR$/netflix/eureka-hystrix-dashboard/pom.xml" />
         <option value="$PROJECT_DIR$/netflix/eureka-turbine/pom.xml" />
         <option value="$PROJECT_DIR$/netflix/eureka-turbine-stream-rabbitmq/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config/pom.xml" />
       </list>
     </option>
   </component>

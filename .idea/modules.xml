@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/cloud-config/cloud-config.iml" filepath="$PROJECT_DIR$/cloud-config/cloud-config.iml" />
       <module fileurl="file://$PROJECT_DIR$/netflix/eureka-client-pro/eureka-client-pro.iml" filepath="$PROJECT_DIR$/netflix/eureka-client-pro/eureka-client-pro.iml" />
       <module fileurl="file://$PROJECT_DIR$/netflix/eureka-hystrix-dashboard/eureka-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/netflix/eureka-hystrix-dashboard/eureka-hystrix-dashboard.iml" />
       <module fileurl="file://$PROJECT_DIR$/netflix/eureka-producer-feign/eureka-producer-feign.iml" filepath="$PROJECT_DIR$/netflix/eureka-producer-feign/eureka-producer-feign.iml" />

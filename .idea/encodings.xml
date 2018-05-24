@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/cloud-config" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netflix" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netflix/eureka-client-pro" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/netflix/eureka-hystrix-dashboard" charset="UTF-8" />
