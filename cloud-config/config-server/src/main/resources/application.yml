@@ -1,0 +1,31 @@
+spring:
+  application:
+    name: config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/IceNardus/spring-cloud-example # 配置git仓库的地址
+          search-paths: conf # git仓库地址下的相对地址，可以配置多个，用,分割。
+  rabbitmq:
+      host: localhost
+      port: 5672
+      username: guest
+      password: guest
+server:
+  port: 12000
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+      prefer-ip-address: true #将自己的ip地址注册到Eureka服务中
+      ipAddress: 127.0.0.1
+management:
+  security:
+    enabled: false #是否开启actuator安全认证
+endpoints:
+  bus:
+    enabled: true
+    sensitive: false
+

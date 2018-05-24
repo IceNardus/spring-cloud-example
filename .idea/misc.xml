@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/netflix/eureka-turbine/pom.xml" />
         <option value="$PROJECT_DIR$/netflix/eureka-turbine-stream-rabbitmq/pom.xml" />
         <option value="$PROJECT_DIR$/cloud-config/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-config/config-server/pom.xml" />
       </list>
     </option>
   </component>
