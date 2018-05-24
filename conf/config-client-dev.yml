@@ -13,4 +13,4 @@ management:
       exposure:
         include: refresh
 dev:
-  name： jake
+  name: jake
