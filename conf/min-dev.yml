@@ -40,10 +40,10 @@ spring:
       #    通过connectProperties属性来打开mergeSql功能；慢SQL记录
       connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
   rabbitmq:
-	    host: 10.20.0.66
-	    port: 5672
-	    username: shuma
-	    password: q1w2e3r4    
+      host: 10.20.0.66
+      port: 5672
+      username: shuma
+      password: q1w2e3r4    
   jpa:
     database: mysql
     generate-ddl: true
