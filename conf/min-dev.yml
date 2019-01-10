@@ -1,0 +1,85 @@
+spring:
+  datasource:
+      username: shuma
+      password: q1w2e3r4
+      driver-class-name: com.mysql.jdbc.Driver
+      url: jdbc:mysql://10.20.0.66:3306/min?useUnicode=true&characterEncoding=utf8&autoReconnect=true&useSSL=false
+          #    spring2.0后要加上这个配置schema才生效,表示始终执行初始化
+      initialization-mode: ALWAYS
+      type: com.alibaba.druid.pool.DruidDataSource
+      #    ==========数据源其他配置==========
+      #    初始化数量
+      initialSize: 5
+      #    允许的最小空闲连接数
+      minIdle: 5
+      #    最大活跃数
+      maxActive: 20
+      #    最大连接等待超时时间，单位是毫秒(ms)
+      maxWait: 60000
+      #    配置间隔多久才进行一次检测，检测需要关闭的空闲连接，单位是毫秒
+      timeBetweenEvictionRunsMillis: 60000
+      #    配置一个连接在池中最小生存的时间，单位是毫秒
+      minEvictableIdleTimeMillis: 300000
+      #    验证数据库连接的查询语句，这个查询语句必须是至少返回一条数据的SELECT语句
+      validationQuery: SELECT 1
+      #    建议配置为true，不影响性能，并且保证安全性。申请连接的时候检测，如果空闲时间大于timeBetweenEvictionRunsMillis，执行validationQuery检测连接是否有效。
+      testWhileIdle: true
+      #    申请连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能
+      testOnBorrow: false
+      #    归还连接时执行validationQuery检测连接是否有效，做了这个配置会降低性能
+      testOnReturn: false
+      #    是否缓存preparedStatement，也就是PSCache。PSCache对支持游标的数据库性能提升巨大，比如说oracle。在mysql下建议关闭。
+      poolPreparedStatements: false
+      maxPoolPreparedStatementPerConnectionSize: 20
+      #    配置监控统计拦截的filters，去掉后监控界面sql无法统计，'wall'用于防火墙
+      filters: stat,wall,slf4j
+      #    合并多个DruidDataSource的监控数据
+      useGlobalDataSourceStat: true
+      #    通过connectProperties属性来打开mergeSql功能；慢SQL记录
+      connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+
+
+  jpa:
+    database: mysql
+    generate-ddl: true
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.springframework.boot.orm.jpa.hibernate.SpringPhysicalNamingStrategy
+    #JSON
+  jackson:
+     #时区
+    time-zone: GMT+8
+     #时间格式
+    date-format: yyyy-MM-dd HH:mm:ss
+  redis:
+    database: 0
+    host: 10.20.0.66
+    port: 6379
+    password:
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        max-wait: -1ms
+        min-idle: 0
+      timeout: 1800
+sys:
+  session:
+    expireTime: 1800
+  wx:
+    baseUrl:  https://api.weixin.qq.com/
+    authorization:
+      url:  http://open.yoodex.net/auth/getWXInfo/Token
+      identification:  52b139019bbdc5a1a9f17346072a62fc
+    min:
+      appid:  wx4dee212d3440794f
+      secret:  0fee81111c9e879887f4958438d63f61
+      authorization:
+        identification:  QCC7TY57U8INKL8
+        url:   http://open.yoodex.net/auth/getWXInfo/getWxMiniToken
+      template:
+        getCoupon:  l6Iibs1ioRB8sD1zI0mIgBVmdfh_yCbelzZ-IYUxnCc
+        groupFinish: ALA0hmubj5ZOBHpMwoGylK0vkTPR7CAKiDYx5_0tfq4
+
