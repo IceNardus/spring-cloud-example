@@ -1,3 +1,9 @@
+spring:
+  rabbitmq:
+      host: 10.20.0.66
+      port: 5672
+      username: shuma
+      password: q1w2e3r4
 sys:
   session:
     expireTime: 1800
