@@ -11,8 +11,6 @@ spring:
           predicates:
             - Path=/yonghe-min-feign/**
           filters:
-            - StripPrefix=1
-            - AddResponseHeader=X-Response-Default-Foo, Default-Bar
             - name: RequestRateLimiter
                 args:
                   redis-rate-limiter.replenishRate: 10
