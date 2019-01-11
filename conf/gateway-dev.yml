@@ -12,11 +12,6 @@ spring:
             - Path=/yonghe-min-feign/**
           filters:
             - StripPrefix=1
-            - name: RequestRateLimiter
-              args:
-                key-resolver: '#{@ipKeyResolver}'
-                redis-rate-limiter.replenishRate: 1
-                redis-rate-limiter.burstCapacity: 5
             - AddResponseHeader=X-Response-Default-Foo，Default-Bar  
   redis:
     database: 0
