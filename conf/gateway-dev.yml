@@ -25,3 +25,6 @@ spring:
         max-wait: -1ms
         min-idle: 0
       timeout: 1800
+logging:
+  level:
+    org.springframework.cloud.gateway: debug
