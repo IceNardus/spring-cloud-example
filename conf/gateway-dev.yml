@@ -12,7 +12,7 @@ spring:
             - Path=/yonghe-min-feign/**
           filters:
             - StripPrefix=1
-            - AddResponseHeader=X-Response-Default-Foo，Default-Bar  
+            - AddResponseHeader=X-Response-Default-Foo, Default-Bar
   redis:
     database: 0
     host: 10.20.0.66
