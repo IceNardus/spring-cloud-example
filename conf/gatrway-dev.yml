@@ -1,0 +1,27 @@
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+      routes:
+        - id: service_customer
+          uri: lb://YONGHE-MIN-FEIGN
+          order: 0
+          predicates:
+            - Path=/yonghe-min-feign/**
+          filters:
+            - StripPrefix=1
+            - AddResponseHeader=X-Response-Default-Foo, Default-Bar
+  redis:
+    database: 0
+    host: 10.20.0.66
+    port: 6379
+    password:
+    lettuce:
+      pool:
+        max-active: 8
+        max-idle: 8
+        max-wait: -1ms
+        min-idle: 0
+      timeout: 1800
